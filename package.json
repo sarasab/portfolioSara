@@ -25,7 +25,7 @@
   },
   "scripts": {
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "frontend": "npm start",
+    "frontend": "react-scripts start",
     "backend": "nodemon backend.js",
     "start": "node backend.js",
     "build": "react-scripts build",
