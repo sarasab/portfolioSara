@@ -15,17 +15,18 @@ class   Animation extends Component {
             style={{ paddingTop: '5rem', margin: 'auto 0', fontWeight: 'normal' }}
           >
             j'aime{' '}
-            <span style={{ color: 'red', fontWeight: 'bold' }}>
+            <span style={{ color: '#000', fontWeight: 'bold'}}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={['Danser', 'Lire', 'Coder', 'voyager']}
+                
                 loop={5}
                 cursor
                 cursorStyle='_'
                 typeSpeed={70}
                 deleteSpeed={50}
                 delaySpeed={1000}
-                onLoopDone={() => console.log(`Done after 10 loops!`)}
+                onLoopDone={() => console.log(`Done after 20 loops!`)}
               />
             </span>
           </h1>
