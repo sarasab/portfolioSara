@@ -10,7 +10,7 @@ class Carouselle extends Component {
     return (
 
 
-      <Carousel style={{ width: "60%", marginTop: "40px", margin: "auto", boxShadow: "-1px 2px 5px 1px rgba(0, 0, 0, 0.7)" }}>
+      <Carousel style={{ width: "30%", marginTop: "40px", margin: "auto", boxShadow: "-1px 2px 5px 1px rgba(0, 0, 0, 0.7)" }}>
         <Carousel.Item>
           <img
             className="d-block"

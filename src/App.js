@@ -52,9 +52,11 @@ class App extends React.Component {
             <nav style={{ height: "8vh" }} >
 
               <ul>
-                <li ><Link className="text-white" to="/">Home</Link></li>
-                <li><Link className="text-white" to="/about">About</Link></li>
-                <li><Link className="text-white" to="/contact">Contact</Link></li>
+               
+                <li ><a className="text-white" href="/">Home</a></li>
+                <li><a className="text-white" href="#about">About</a></li>
+                <li><a className="text-white" href="#Experiences">Experiences</a></li>
+                <li><a className="text-white" href="#Contact">Contact</a></li>
               </ul>
             </nav>
             <Switch >
@@ -66,7 +68,7 @@ class App extends React.Component {
 
 
 
-            <div style={{ marginTop: "40px", margin: "30px" }} >
+            <div id="about" style={{ marginTop: "40px", margin: "30px" }} >
               <Card className="bg-dark text-white" style={{ flexDirection: "row", padding: "20px", marging: "15px", boxShadow: "-1px 2px 5px 1px rgba(0, 0, 0, 0.7)" }} >
                 <Card.Img style={{ width: '15rem' }} src="/image/Sara.jpg" alt="Card image" />
 
@@ -91,7 +93,7 @@ class App extends React.Component {
 
 
 
-            <span >
+            <span id ="Experiences">
               <Experiences />
             </span>
 
@@ -106,7 +108,6 @@ class App extends React.Component {
 
             <Footer onClick={this.onClick} style={{ color: this.state.theme.color }}/>
 
-            
           </div>
         
          
