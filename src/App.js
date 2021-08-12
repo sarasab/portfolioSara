@@ -11,7 +11,6 @@ import GithubCorner from 'react-github-corner';
 import Card from 'react-bootstrap/Card'
 import TextAnimation from "react-animate-text";
 import Animation from './component/Animation';
-import Realisation from './component/Realisation';
 import Carouselle from './component/Carouselle';
 import Formulaire from "./component/formulaire"
 
@@ -86,9 +85,7 @@ class App extends React.Component {
               </Card>
             </div>
 
-            <div style={{ padding: "20px", marging: "30px" }}>
-              <Carouselle />
-            </div>
+            
 
 
 
@@ -98,14 +95,11 @@ class App extends React.Component {
               <Experiences />
             </span>
 
-
-            <div style={{ display: "flex", justifyContent: "space-between", paddingLeft: "30px", marginRight: "30px", flexDirection: "row", paddingTop: "10px" }}>
-              <h2>Realisation</h2>
-
-              <Realisation image='/image/image3.jpg' />
-              <Realisation image='/image/image4.jpg' />
-              <Realisation image='/image/image5.jpg' />
+            <div style={{ padding: "20px", marging: "30px" }}>
+              <h1>PROJET</h1>
+              <Carouselle />
             </div>
+           
             <div>
               <Animation />
             </div>

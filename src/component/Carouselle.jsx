@@ -55,7 +55,7 @@ class Carouselle extends Component {
           />
 
           <Carousel.Caption>
-          <Button variant="dark" size="lg" onClick={()=>window.open("https://github.com/sarasab/countries")}>Countries Project</Button>
+          <Button variant="dark" size="lg" onClick={()=>window.open("https://github.com/sarasab/portfolioSara")}>Portfolio Project</Button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
