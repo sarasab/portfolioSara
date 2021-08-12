@@ -43,11 +43,11 @@ class Experiences extends Component {
               Paris
             </h5>
             <p>2010 - 2019</p>
-<p>Interpréter des personnages artistiques</p>
-<p>Exécuter des chorégraphies</p>
-<p>Veiller au bon déroulement de la parade</p>
-<p>Animation de spectacle
-</p>
+            <p>Interpréter des personnages artistiques</p>
+            <p>Exécuter des chorégraphies</p>
+            <p>Veiller au bon déroulement de la parade</p>
+            <p>Animation de spectacle
+            </p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement >
@@ -59,13 +59,19 @@ class Experiences extends Component {
           <VerticalTimelineElement >
             <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
             <h4>LANGAGES et Frameworks</h4>
-            <p>JavaScript</p>
-            <p>HTML/CSS</p>
-            <p>jQuery</p>
-            <p>React JS</p>
-            <p>React Native</p>
-            <p>Node JS</p>
-            <p>Boostrap</p>
+            <p><i className="devicon-javascript-plain colored" style={{ fontSize: "20px" }}></i>JavaScript</p>
+            <p><i className="devicon-html5-plain-wordmark colored" style={{ fontSize: "20px" }}></i>HTML</p>
+            <p><i className="devicon-css3-plain-wordmark colored" style={{ fontSize: "20px" }}></i>CSS</p>
+            <p><i className="devicon-jquery-plain colored" style={{ fontSize: "20px" }}></i>jQuery</p>
+            <p>
+              <i className="devicon-react-original colored" style={{ fontSize: "20px" }}></i>
+              React JS
+            </p>
+            <p><i className="devicon-react-original colored"style={{ fontSize: "20px" }}></i>React Native</p>
+            <p> <i className="devicon-nodejs-plain colored" style={{ fontSize: "20px" }}></i>Node JS</p>
+            <p><i className="devicon-bootstrap-plain colored" style={{ fontSize: "20px" }}></i>Boostrap</p>
+
+
 
 
 

@@ -21,3 +21,10 @@ div.card.body{
   background-color: salmon;
 
 }
+
+
+.dark {
+  --theme-color: #0000A8;
+  --theme-page-background: #111;
+  --theme-page-text: #FFF;
+}

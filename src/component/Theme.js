@@ -3,12 +3,15 @@ import React from 'react'
 
 export const themes = { // contient les données stockées et leurs valeurs
   light: {
-    color: '#000',
+    text:"#111",
+    color: "#A80000",
     backgroundColor: '#fff',
   },
   dark: {
-    color: '#fff',
-    backgroundColor: '#000',
+    text:"#FFF",
+    color: '#0000A8',
+    backgroundColor: "#111",
+
   },
 }
 
