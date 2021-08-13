@@ -25,7 +25,7 @@ class Carouselle extends Component {
 
         <Carousel.Item>
           <img
-            className="d-block w-200"
+            className="d-block w-20"
             src="image/healthy.jpg"
             alt="Second slide"
           />
@@ -38,7 +38,7 @@ class Carouselle extends Component {
         <Carousel.Item>
           <img
             className="d-block w-20"
-            src="image/countries.jpg"
+            src="image/Countries.jpg"
             alt="Third slide"
           />
 
